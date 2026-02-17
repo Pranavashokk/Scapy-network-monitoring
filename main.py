@@ -1,5 +1,4 @@
-from scapy.all import sniff  
-
+from scapy.all import sniff, srp, Ether, ARP
 
 packets = sniff(count=10)
 
